@@ -1,0 +1,222 @@
+.navbar {
+    text-align: center;
+    
+    
+}
+
+.container-fluid div{
+  display: flex;
+justify-content: space-around;}
+
+.title{
+ font-family: 'Montserrat', sans-serif;
+color: #8f0518;
+
+    margin:auto;
+
+
+}
+
+img.headshot{
+    box-shadow: inset 0px 0px 200px rgba(255, 0, 0, 0.9);
+    width: 100%;
+    
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+    transform: translate(-50%, -50%);
+ font-family:'Montserrat', sans-serif;
+color: white;
+font-size: 2rem;
+font-weight: 300;}
+    
+span{
+    text-align: center;
+    
+}
+
+.votehere {
+    display: block;
+    margin: auto;
+}
+
+
+
+#sanyaFace{
+    background: radial-gradient ( circle, transparent 50%, black 150%); 
+  box-shadow: inset 0px 0px 200px rgba(255, 0, 0, 0.9);   
+}
+
+span.h1 a {
+    text-decoration: none;
+}
+
+div.container-fluid {
+    padding: 0;
+    
+}
+
+div.col-lg-2.col-md-6 {
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.dropdown-item{
+    text-align: center;
+}
+
+ul li a.dropdown-item{
+    color: #8f0518;
+     font-family: 'Montserrat', sans-serif;
+    font-size: 0.65rem;
+}
+
+.leadSection{
+    padding-top: 20px
+}
+
+.navbar.navbarlight {
+     font-family: 'Montserrat', sans-serif;
+}
+
+#navbarDropdown {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.leadSection {
+    padding: 20px;
+}
+
+
+ol.selectedArticles {
+    padding: 5x;}
+.modal-content{
+    height: 600px;
+    width: 100%;
+}
+
+.fa-at, .fa-twitter-square, .fa-linkedin  {
+    color: white;
+    margin: 10px;
+}
+
+.img-fluid{
+    border: 2px solid black;
+}
+
+.footerText{
+    color: white;
+    margin: none;
+    font-size: 0.5rem;
+}
+.socialWrapper {
+    margin: auto;
+}
+
+.footerHome{
+    background-color: #8f0518;
+}
+
+
+.btnCenter {
+    margin: auto;
+    display: block;
+}
+
+
+.article {
+    display: block;
+   
+
+}
+
+.Steps {
+    color: maroon;
+     font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    
+}
+
+.votehere{
+    background-color: maroon; color: white;
+    display: block;
+    margin: auto;
+}
+
+
+.voteTitle{
+    font-family: 'Montserrat', sans-serif;
+    padding:15px;
+    color: maroon;
+    text-align: center;
+}
+
+.voteposter{
+width: 70%;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3)
+}
+
+.selectedArticles {
+    font-family:  'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    border: solid maroon 3px;
+    padding: none;
+ 
+}
+
+.selectedArticles li{
+padding: 0;
+}
+
+div.col {
+    padding: 0;
+    
+}
+
+.leadpage{
+    padding: 10px;
+    margin: auto;
+}
+
+p {
+     font-family:  'Montserrat', sans-serif;
+    
+}
+
+
+
+.oralpres {
+   background-color: lightgrey;
+       padding: 20px;
+font-size: 0.65rem;
+    display: block;
+    border: 1px solid maroon 
+    
+/*    border: 1px solid black;*/
+
+}
+
+@media screen and (max-width:680px) {
+
+    
+    .centered {
+  top: 40%;
+font-size: 1rem;
+}
+    
+    
+    
+    
+    
+}
