@@ -1,7 +1,126 @@
+/*
+nav {
+    width: 100%;
+    margin:0; 
+}
+
+nav ul {
+    background-color: #8f0518;
+    margin: 0;
+    padding:0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+    
+}
+
+ul.topnav li.dropdownIcon a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+
+
+ul.topnav li a:hover {
+ background-color: #0080ff;
+    color: white;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+
+
 .navbar {
     text-align: center;
     
     
+}
+*/
+
+body{
+ font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    text-align: center;
+}
+nav {
+    width: 100%;
+    margin:0; 
+    background-color: maroon;
+}
+
+.bg-maroon{
+    background-color: maroon;
+    
+}
+nav ul {
+    
+    margin: 0;
+    padding:0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+    
+}
+
+ul.topnav li.dropdownIcon a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+
+
+/*
+ul.topnav li a:hover {
+ background-color: #0080ff;
+    color: white;
+}
+*/
+
+ul.topnav li.dropdownIcon {
+    display: none;
 }
 
 .container-fluid div{
@@ -16,6 +135,17 @@ color: #8f0518;
 
 
 }
+.img-fluid.visionPicSanya{
+    padding: 15px;
+}
+
+.titleBig{
+    font-size: 2.8rem;
+}
+
+.titleSmall {
+    font-size: 1rem;
+}
 
 img.headshot{
     box-shadow: inset 0px 0px 200px rgba(255, 0, 0, 0.9);
@@ -26,7 +156,7 @@ img.headshot{
 .centered {
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 63%;
     transform: translate(-50%, -50%);
  font-family:'Montserrat', sans-serif;
 color: white;
@@ -96,7 +226,14 @@ ul li a.dropdown-item{
     padding: 20px;
 }
 
+.sanyapres{
+    font-size: 1rem;
+}
 
+
+.posterpres h3, .postpres ul li{
+       font-family: 'Montserrat', sans-serif;
+}
 ol.selectedArticles {
     padding: 5x;}
 .modal-content{
@@ -106,7 +243,7 @@ ol.selectedArticles {
 
 .fa-at, .fa-twitter-square, .fa-linkedin  {
     color: white;
-    margin: 10px;
+    
 }
 
 .img-fluid{
@@ -214,8 +351,19 @@ font-size: 0.65rem;
   top: 30%;
 font-size: 1rem;
 }
+
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+}
     
     
+    .titleBig {
+        font-size:  1rem;
+    }
+    
+    .titleSmall {
+        font-size: 0.5rem;
+    }
     
     
     
