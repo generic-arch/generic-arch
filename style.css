@@ -274,10 +274,16 @@ ul li a.dropdown-item{
 .wrapperVision {
     
 }
-.visionobject {
+
+.visionPicSanya {
+    min-width: 200px
+}
+
+.visionObject {
     display: flex;
     align-items: center;
-    padding: 4rem 1rem;
+    padding: 20px;
+    
 }
 .icon-wrapper-left,
 .icon-wrapper-right{
@@ -288,25 +294,26 @@ ul li a.dropdown-item{
 
 .icon-wrapper-left,
 .blurbWrapper-left{
-    order: 1;
+    order: 2;
 }
 
 .icon-wrapper-right, 
 .blurbWrapper-right{
-    order:2;
+    order:1;
+    
+}
+
+.blurbWrapper-right, 
+.blurbWrapper-left{
+    flex: 3;
+    padding: 8px;
 }
 
 .icon{
     max-width: 180px
 }
-.blurbWrapper-right, 
-.blurbWrapper-left{
-    flex: 3;
-}
 
-.visionPicSanya {
-    min-width: 200px
-}
+
 
 .leadSection {
     padding: 20px;
@@ -452,6 +459,8 @@ font-size: 1rem;
         font-size: 0.5rem;
     }
     
-    
+    .visionObject {
+    display: flex;
+        flex-direction: column
     
 }
