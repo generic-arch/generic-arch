@@ -303,6 +303,12 @@ ul li a.dropdown-item{
     
 }
 
+video.videoSanya, vidwrapper{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px
+}
+
 .blurbWrapper-right, 
 .blurbWrapper-left{
     flex: 3;
@@ -442,7 +448,7 @@ font-size: 0.65rem;
 
     
     .centered {
-  top: 30%;
+  top: 10%;
 font-size: 1rem;
 }
 
