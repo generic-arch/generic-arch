@@ -448,14 +448,16 @@ font-size: 0.65rem;
 
     
     .centered {
-  top: 10%;
+  top: 17%;
 font-size: 1rem;
 }
 
     ul.topnav li:not(:nth-child(1)) {
         display: none;
 }
-    
+    video.videoSanya{
+        width: 300px
+    }
     
     .titleBig {
         font-size:  0.8rem;
