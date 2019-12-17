@@ -169,7 +169,7 @@ color: #8f0518;
     margin-top: 90px
 }
 .titleSmall {
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 div.col-sm-10.col-sm-12{
@@ -204,13 +204,17 @@ img.headshot{
 
 .centered {
   position: absolute;
-  top: 50%;
-  left: 63%;
+  top: 45%;
+  right:-29%;
     transform: translate(-50%, -50%);
  font-family:'Montserrat', sans-serif;
 color: white;
-font-size: 2rem;
-font-weight: 300;}
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 63px;
+    font-weight: 100;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
+    margin: 15px auto;}
     
 span{
     text-align: center;
@@ -276,7 +280,9 @@ ul li a.dropdown-item{
 }
 
 .visionPicSanya {
-    min-width: 200px
+    min-width: 200px;
+    margin-left: 20px;
+    margin-top: 30px
 }
 
 .visionObject {
@@ -287,7 +293,7 @@ ul li a.dropdown-item{
 }
 .icon-wrapper-left,
 .icon-wrapper-right{
-    flex: 1;
+    flex: 4;
     display: flex;
     justify-content: center;
 }
@@ -306,12 +312,13 @@ ul li a.dropdown-item{
 video.videoSanya, vidwrapper{
     display: block;
     margin: auto;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    outline: none;
 }
 
 .blurbWrapper-right, 
 .blurbWrapper-left{
-    flex: 3;
+    flex: 1;
     padding: 8px;
 }
 
@@ -435,10 +442,11 @@ p {
 
 .oralpres {
    background-color: lightgrey;
-       padding: 20px;
+       padding: 40px;
 font-size: 0.65rem;
     display: block;
-    border: 1px solid maroon 
+    border: 1px solid maroon;
+   
     
 /*    border: 1px solid black;*/
 
