@@ -457,6 +457,9 @@ font-size: 0.65rem;
     
     .centered {
   top: 17%;
+  position: absolute;
+
+  right:-25%;
 font-size: 1rem;
 }
 
