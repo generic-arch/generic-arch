@@ -460,7 +460,7 @@ font-size: 0.65rem;
   position: absolute;
 
   right:-21%;
-
+ 
 }
 
     ul.topnav li:not(:nth-child(1)) {
@@ -471,11 +471,11 @@ font-size: 0.65rem;
     }
     
     .titleBig {
-        font-size:  1.2rem;
+        font-size:  0.9rem;
     }
     
     .titleSmall {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     
     .visionObject {
